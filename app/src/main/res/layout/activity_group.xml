@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_below="@id/group_activity_toolbar_container"
         android:layout_height="wrap_content">
-        <include layout="@layout/item_order_expandable" />
+        <include layout="@layout/item_fridge_expandable" />
 
     </RelativeLayout>
 
