@@ -1,0 +1,21 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_front"
+    tools:context="itlab.edabudetv2.registration.LoginActivity"
+    android:clipToPadding="false">
+
+    <include layout="@layout/toolbar" />
+
+
+    <fragment
+        android:name="itlab.edabudetv2.registration.LoginFragment"
+        android:id="@+id/login_fragment"
+        android:tag="@string/tag_fragment_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+    </fragment>
+</RelativeLayout>

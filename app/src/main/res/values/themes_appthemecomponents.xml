@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="AppThemeComponents" parent="@style/_AppThemeComponents"/>
+
+  <style name="_AppThemeComponents" parent="android:Theme.Holo.Light">
+
+    <item name="android:editTextBackground">@drawable/appthemecomponents_edit_text_holo_light</item>
+
+  </style>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FF5722</color>
+    <color name="primary_dark">#E64A19</color>
+    <color name="background_front">#FBE9E7</color>
+    <color name="background_back">#E0C3BA</color>
+    <color name="accent">#FBE9E7</color>
+    <color name="floating_button">#DD2C00</color>
+    <color name="text_dark">#000000</color>
+    <color name="text_light">#FFFFFF</color>
+    <color name="text_primary">#424242</color>
+    <color name="text_secondary">#9E9E9E</color>
+    <color name="text_description">#757575</color>
+    <color name="text_alert">#FF5722</color>
+    <color name="delimiter">#BDBDBD</color>
+</resources>

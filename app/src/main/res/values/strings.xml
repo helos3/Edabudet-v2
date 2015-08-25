@@ -1,0 +1,33 @@
+<resources>
+
+    <!--titles-->
+    <string name="app_name">ЕдаБудет</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <!--tags-->
+    <string name="tag_fragment_login">LoginActivity</string>
+
+    <!--component hints-->
+    <string name="hint_input_login">Введите логин</string>
+    <string name="hint_input_pass">Введите пароль</string>
+    <string name="hint_input_pass_confirm">Подтвердите пароль</string>
+    <string name="hint_login">Войти</string>
+    <string name="hint_registration">Регистрация</string>
+    <string name="link_registration">Зарегистрироваться</string>
+    <string name="link_login">Войти</string>
+
+
+
+    <!--paddings -->
+    <string name="edit_text_padding">16dp</string>
+
+
+    <!-- fonts-->
+    <string name="font_link">sans-serif-medium</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_group">GroupActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+
+</resources>

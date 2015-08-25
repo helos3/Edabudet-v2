@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorBackground">@color/background_front</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/floating_button</item>
+    </style>
+
+    <style name="EditTextCustomHolo" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/appthemecomponents_edit_text_holo_light</item>
+        <item name="android:textCursorDrawable">@drawable/cursor</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+
+    <style name="Buttons" parent="android:Widget.Button">
+        <item name="android:background">@color/primary</item>
+        <item name="android:textColor">@color/text_light</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+
+    <style name="Links" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:fontFamily">@string/font_link</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="Images">
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="PrimaryText" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="SecondaryText" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="DescriptionText" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/text_description</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="AlertText" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/text_alert</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>
