@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -22,7 +23,6 @@
         android:layout_below="@id/toolbar_container"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:elevation="5dp"
         app:iconColor="#FFFFFF"
         app:primaryColor="@color/primary"
         app:accentColor="@color/accent"
@@ -36,12 +36,5 @@
         android:layout_below="@+id/materialTabHost" />
 
 
-    <RelativeLayout
-        android:layout_below="@id/materialTabHost"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <include layout="@layout/item_fridge_expandable" />
-
-    </RelativeLayout>
 
 </RelativeLayout>

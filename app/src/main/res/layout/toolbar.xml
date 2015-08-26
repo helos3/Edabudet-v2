@@ -6,7 +6,6 @@
     android:id="@+id/toolbar"
     android:background="@color/primary"
     android:theme="@style/AppTheme"
-    android:elevation="5dp"
     >
 
     <RelativeLayout
