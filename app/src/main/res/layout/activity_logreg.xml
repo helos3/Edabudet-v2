@@ -7,10 +7,17 @@
     tools:context="itlab.edabudetv2.registration.LoginActivity"
     android:clipToPadding="false">
 
-    <include layout="@layout/toolbar" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_container">
+
+        <include layout="@layout/toolbar" />
+    </RelativeLayout>
 
 
     <fragment
+        android:layout_below="@id/toolbar_container"
         android:name="itlab.edabudetv2.registration.LoginFragment"
         android:id="@+id/login_fragment"
         android:tag="@string/tag_fragment_login"

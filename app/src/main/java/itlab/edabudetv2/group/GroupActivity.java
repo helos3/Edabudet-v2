@@ -1,12 +1,12 @@
 package itlab.edabudetv2.group;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 
 import itlab.edabudetv2.R;
 
-public class GroupActivity extends ActionBarActivity {
+public class GroupActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
