@@ -26,7 +26,7 @@ public class GroupActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_group);
 
-        mMaterialTabHost = (MaterialTabHost) findViewById(R.id.materialTabHost);
+        mMaterialTabHost = (MaterialTabHost) findViewById(R.id.material_tab_host);
         mPager = (ViewPager) findViewById(R.id.pager);
         mFragments = new ArrayList<>();
 
